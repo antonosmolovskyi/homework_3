@@ -2,20 +2,18 @@
 #include <string>
 #include <algorithm>
 
-using namespace std;
-
 int main() {
   int value;
-  cin >> value;
-  const inr TEN = 10
+  std::cin >> value;
+  const int TEN = 10;
   const int ZERO = 0;
   if (value % TEN == ZERO) {
     while (value % TEN == ZERO) {
       value /= TEN;
     }
   }
-  string s = to_string(value);
-  reverse(s.begin(), s.end());
-  cout << s;
+  std::string s = std::to_string(value);
+  std::reverse(s.begin(), s.end());
+  std::cout << s;
   return 0;
 }

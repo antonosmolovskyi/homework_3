@@ -7,15 +7,13 @@ int main() {
   int counter_end = 0;
   int counter_begin = 0;
   int number = 10;
-  const int TEN = 10;
-  const int THREE = 3;
-  for (int i = 0; i < THREE; ++i) {
+  for (int i = 0; i < 3; ++i) {
     counter_end += a % number;
-    a /= TEN;
+    a /= 10;
   }
-  for (int i = 0; i < THREE; ++i) {
+  for (int i = 0; i < 3; ++i) {
     counter_begin += a % number;
-    a /= TEN;
+    a /= 10;
   }
   if (counter_begin == counter_end) {
     std::cout << "you have happy ticket ";

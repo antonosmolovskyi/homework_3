@@ -4,6 +4,7 @@
 
 int main() {
   int value;
+  std::cout << "Please, enter the number, to converse it" << std::endl;
   std::cin >> value;
   const int TEN = 10;
   const int ZERO = 0;

@@ -3,10 +3,10 @@
 
 int main() {
 	int number;
-	std::cout << "Please enter the number  " << '/n';
+	std::cout << "Please enter the number(to check is the bit set) " << '/n';
 	std::cin >> number;
 	int count = 0;
-	std::cout << "please enter the count  " << '/n';
+	std::cout << "please enter the count (which bit you want to check) " << '/n';
 	std::cin >> count;
 	for (int i = 0; i < count; ++i) {
 		int integer = 0;

@@ -2,7 +2,7 @@
 
 int main() {
   int a = 0;
-  std::cout << "Please, enter the number of your ticket ";
+  std::cout << "Please, enter the number of your ticket, to check for luck ";
   std::cin >> a;
   int counter_end = 0;
   int counter_begin = 0;

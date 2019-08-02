@@ -3,6 +3,7 @@
 int main() {
   int valuer = 0;
   int valuer_number = 1;
+  std::cout << "Enter the number, to Calculate the sum and arithmetic mean of this number" << std::endl;
   std::cin >> valuer;
   int save_to_valuer = valuer;
   int save_to_valuer1 = valuer;

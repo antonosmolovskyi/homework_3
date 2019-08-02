@@ -4,7 +4,7 @@
 int main () {
   int num = 0;
   int counter = 0;
-  std::cout<<"Please Enter numbers: " << std::endl;
+  std::cout<<"Please Enter numbers, to count the sum of the odd elements " << std::endl;
   std::cout<<"/if you want to stop entering numbers, enter * " << std::endl;
   for (int i = 0; i < 50; ++i) {
     std::cin >> num;

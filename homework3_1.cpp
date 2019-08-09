@@ -1,6 +1,5 @@
 #include <iostream>
 
-
 int main() {
 	int number;
 	std::cout << "Enter the foundation of your tree (it must be not unpaired)" << std::endl;
